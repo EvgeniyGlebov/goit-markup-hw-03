@@ -353,12 +353,12 @@ img {
 
 .footer-container {
   padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .logo-link-footer {
   display: block;
-  padding-bottom: 20px;
-  padding-top: 60px;
+  margin-bottom: 20px;
 }
 
 .logo-link-firstWord {
