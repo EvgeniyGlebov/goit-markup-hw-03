@@ -287,7 +287,7 @@ img {
 }
 
 .about-list-item {
-  flex-basis: calc(100%-90px) / 3;
+  flex-basis: calc((100%-90px) / 3);
   margin-top: 30px;
   margin-left: 30px;
 }
@@ -322,13 +322,25 @@ img {
   margin-top: -30px;
   margin-left: -30px;
  /*  flex-basis: calc((100% - 120px) / 4); */
+ 
 }
 
 .team-list-item {
+  /* outline: 1px ridge rgba(0, 0, 0, 0.15) ;
+  outline-offset: -1px; */
+
+  width: 270px;
+  border: 1px;
+  border-style: inset;
+  border-radius: 4px;
+  
+
+  
+
   margin-top: 30px;
   margin-left: 30px;
-  border: 1px;
-  border-color: #212121;
+  
+  
 }
 
 .team-list-item-photo {
@@ -426,7 +438,7 @@ img {
 }
 
 .adress-list-item:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 9px;
 }
 
 /*end footer section*/
@@ -434,6 +446,7 @@ img {
 /*  portfolio section*/
 
 .portfolio {
+  
 }
 
 .portfolio-container {
@@ -442,7 +455,7 @@ img {
 .portfolio-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 35px;
+  margin-bottom: 50px;
 }
 
 .portfolio-item:not(:last-child) {
@@ -454,12 +467,19 @@ img {
   flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
+  
 }
 
 .portfolio-photofilter-list-item {
-  flex-basis: calc(100%-90px) / 3;
+  flex-basis: calc((100% - 90px) / 3);
   margin-left: 30px;
   margin-top: 30px;
+
+  width: 270px;
+  border: 1px;
+  border-style: inset;
+  border-radius: 4px;
+
 }
 
 .portfolio-photofilter-list-item:nth-child(3n) {
@@ -486,7 +506,13 @@ img {
 }
 
 .photofilter-discription {
-  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
+
+  
+  
 }
 
 .portfolio-item {
