@@ -26,6 +26,7 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .list {
@@ -76,12 +77,19 @@ img {
 /*header*/
 
 .header {
-  border-bottom: 1px;
+  
+   border-bottom: 1px solid #ECECEC; 
+  
+  
 }
 
 .header-container {
   display: flex;
   align-items: center;
+   border-bottom: 1px solid #ECECEC; 
+  
+  
+  
 }
 
 .logo-link:not(.logo-link-footer) {
@@ -94,6 +102,8 @@ img {
   display: flex;
   align-items: center;
   /*margin-right: 333px;*/
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
 
 .menu {
@@ -130,13 +140,17 @@ img {
 }
 
 .menu-item-link {
+  
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-color);
-  /* padding-top: 25px;
-  padding-bottom: 25px; */
+  padding-top: 32px;
+  padding-bottom: 32px; 
+  display: block;
 }
 
 .menu-item-link:hover,
@@ -152,8 +166,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--contacts-and-discriptions-color);
- /*  padding-top: 25px;
-  padding-bottom: 25px; */
+  padding-top: 32px;
+  padding-bottom: 32px; 
 }
 
 .header-contacts-tel-link:hover,
@@ -287,7 +301,7 @@ img {
 }
 
 .about-list-item {
-  flex-basis: calc((100%-90px) / 3);
+  flex-basis: calc((100% - 90px) / 3);
   margin-top: 30px;
   margin-left: 30px;
 }
@@ -331,7 +345,7 @@ img {
 
   width: 270px;
   border: 1px;
-  border-style: inset;
+  border-style: solid;
   border-radius: 4px;
   
 
@@ -344,7 +358,7 @@ img {
 }
 
 .team-list-item-photo {
-  margin-bottom: 30px;
+ /* margin-bottom: 30px; */
 }
 
 .team-list-item-dicription {
@@ -392,8 +406,8 @@ img {
 }
 
 .footer-container {
-  /* padding-bottom: 60px;
-  padding-top: 60px; */
+  padding-bottom: 60px;
+  padding-top: 60px; 
 }
 
 .logo-link-footer {
@@ -471,13 +485,13 @@ img {
 }
 
 .portfolio-photofilter-list-item {
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 90px) / 3); 
   margin-left: 30px;
   margin-top: 30px;
 
-  width: 270px;
-  border: 1px;
-  border-style: inset;
+  /* width: 270px; 
+  border: 1px; */
+  border-style: solid;
   border-radius: 4px;
 
 }
@@ -510,6 +524,8 @@ img {
   padding-bottom: 20px;
   padding-right: 24px;
   padding-left: 24px;
+
+  border: 0px 1px 1px 1px thin #EEEEEE ;
 
   
   
