@@ -234,7 +234,7 @@ img {
 /*features section*/
 
 .features {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .features-list-item-title {
@@ -294,7 +294,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-color);
 
-  margin-bottom: 50px;
+  margin-bottom: 50px; 
 }
 
 .about-list {
